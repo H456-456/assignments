@@ -17,7 +17,7 @@ var q = array.length - 1
 
 function rUser(){
   for (let i in object) {
-		//alert(object[array[q]])
+		alert(object[array[q]])
     q--
 	}
 }
