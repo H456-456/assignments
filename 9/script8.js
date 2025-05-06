@@ -246,7 +246,7 @@ setInterval(() => {
 		imgExercise16 = 1
 	}
 
-	img.src = `img/${imgExercise16}.jpg`
+	img.src = `../img/${imgExercise16}.jpg`
 	imgExercise16++
 }, 1000);
 
