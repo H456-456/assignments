@@ -241,14 +241,7 @@ let img = document.getElementById('imgExercise16')
 let imgExercise16 = 1
 console.log(img.src)
 
-setInterval(() => {
-	if(imgExercise16 == 4){
-		imgExercise16 = 1
-	}
 
-	img.src = `https://h456-456.github.io/assignments/9/img/2.jpg`
-	imgExercise16++
-}, 1000);
 
 // задание 17
 let aExercise17 = document.getElementById('aExercise17')
