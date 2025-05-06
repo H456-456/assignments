@@ -246,7 +246,7 @@ setInterval(() => {
 		imgExercise16 = 1
 	}
 
-	img.src = `https://h456-456.github.io/assignments/9/img/${imgExercise16}.jpg`
+	img.src = `https://h456-456.github.io/assignments/9/img/2.jpg`
 	imgExercise16++
 }, 1000);
 
