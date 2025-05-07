@@ -241,6 +241,16 @@ let img = document.getElementById('imgExercise16')
 let imgExercise16 = 1
 console.log(img.src)
 
+setInterval(() => {
+	if(imgExercise16 == 4){
+		imgExercise16 = 1
+	}
+
+	img.src = `${imgExercise16}.jpg`
+	imgExercise16++
+}, 1000);
+
+
 
 
 // задание 17
