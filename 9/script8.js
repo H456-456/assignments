@@ -241,7 +241,7 @@ let img = document.getElementById('imgExercise16')
 let imgExercise16 = 1
 console.log(img.src)
 
-setInterval(() => {
+setInterval(function () {
 	if(imgExercise16 == 4){
 		imgExercise16 = 1
 	}
