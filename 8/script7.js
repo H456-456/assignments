@@ -6,7 +6,7 @@ var lineNumber = 0
 
 universitySearchButton.addEventListener('click',function() {
 	fetch(
-		`http://universities.hipolabs.com/search?country=${enteringTheCountryName.value}`
+		`https://universities.hipolabs.com/search?country=${enteringTheCountryName.value}`
 	)
 		.then(response => response.json())
 		.then(data => {
